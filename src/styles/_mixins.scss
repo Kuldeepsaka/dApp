@@ -1,0 +1,12 @@
+@mixin theme-colors($bg, $text, $primary) {
+  background-color: $bg;
+  color: $text;
+
+  a {
+    color: $primary;
+  }
+
+  a:hover {
+    opacity: 0.8;
+  }
+}

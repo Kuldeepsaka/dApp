@@ -1,0 +1,8 @@
+body.light {
+    @include theme-colors($color-bg-light, $color-text-light, $color-primary-light);
+}
+
+body.dark {
+    @include theme-colors($color-bg-dark, $color-text-dark, $color-primary-dark);
+}
+

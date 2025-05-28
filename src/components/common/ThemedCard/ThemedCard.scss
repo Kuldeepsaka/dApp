@@ -1,0 +1,6 @@
+.themed-card {
+    background-color: var(--bg);
+    color: var(--text);
+    border: none;
+    transition: background 0.3s, color 0.3s;
+}

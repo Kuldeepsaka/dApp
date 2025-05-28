@@ -1,0 +1,21 @@
+// Light theme
+$color-bg-light: #ffffff;
+$color-text-light: #1a1a1a;
+$color-primary-light: #0d6efd;
+
+// Dark theme
+$color-bg-dark: #121212;
+$color-text-dark: #f1f1f1;
+$color-primary-dark: #66b2ff;
+
+
+
+:root {
+    --bg: #ffffff;
+    --text: #212529;
+}
+
+body.dark {
+    --bg: #1e1e2f;
+    --text: #f1f1f1;
+}

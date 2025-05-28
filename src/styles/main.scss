@@ -1,0 +1,50 @@
+@import './variables';
+@import './mixins';
+@import './themes';
+
+/* Base styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.transition-theme {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+section{
+    min-height:46vh;
+    padding-top: 65px;
+    padding-bottom: 60px;
+}
+#technology .list-group-item{
+    background-color: var(--bg);
+    color: var(--text);
+    border: var(--bg);
+}
+
+.tokenomics-section {
+    h2 {
+        color: var(--text-primary);
+    }
+
+    table {
+        max-width: 600px;
+        margin: 0 auto;
+
+        td,
+        th {
+            color: var(--text-secondary);
+            background-color: var(--bg-primary);
+            border-color: var(--border-color);
+        }
+
+        &.striped tbody tr:nth-child(odd) {
+            background-color: var(--bg-secondary);
+        }
+
+        &.hover tbody tr:hover {
+            background-color: var(--hover-bg);
+        }
+    }
+}
