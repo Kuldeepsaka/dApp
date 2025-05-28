@@ -10,7 +10,8 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
+.env : VITE_WALLET_CONNECT_ID=f434d277309b676272221baffb18f7bc
+VITE_APP_USDT=0xFaD778bb6F185C024477E9FB9beAdc8a042fd01C
 ```js
 export default tseslint.config({
   extends: [
